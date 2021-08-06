@@ -1,7 +1,7 @@
 .navMenu {
-    background-color: #6d6d6d;
-    height: 5vh;
-    
+    background-color: gray;
+    height: 50vh;
+
 }
 
 .navMenu::after {
@@ -13,20 +13,17 @@
 .navMenu ul {
     list-style: none;
     text-align: left;
-    display: flex;
 }
 
 .navMenu ul li a:hover {
-    color: #6d6d6d;
     font-weight: bold;
     font-size: 18px;
-    color: red;
+    color: blue;
 }
 
 #inicio {
     height: 70vh;
-    background-color:greenyellow ;
-    border: 1px solid red;
+    background-color: greenyellow;
 }
 
 #cursos {
@@ -54,5 +51,5 @@
 #sobre {
     height: 10vh;
     background-color: seashell;
-    border: 1px solid red;
+    border: 1px
 }
